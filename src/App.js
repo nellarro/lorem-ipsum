@@ -8,11 +8,9 @@ class App extends React.Component {
     return (
       <div className='App'>
         <Navigation />
-        <div className='Header'>
-          <div className='LogoImg'>
-            <h1>Sanrio</h1>
+        <div className='HeaderImg'>
+          <div className='Header'>
           </div>
-          <div className='CharacterImage'>stuff</div>
         </div>
       </div>
     )

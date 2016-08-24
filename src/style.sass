@@ -1,9 +1,10 @@
-$font-stack: 'Droid Sans' , sans-serif
+$font-stack: 'Source Sans Pro' , sans-serif
 $site-color: #20C4F4
 $important-color: #0461A9
 
 body
   color: $site-color
+  font-family: $font-stack
   background:
     color: white
   margin: 0px
@@ -32,7 +33,7 @@ body
 
   ul
     list-style: none
-    font: 100% $font-stack
+    font-family: 100% $font-stack
     margin: 0px
     padding:
       left: 0px
@@ -47,13 +48,4 @@ body
     width: 350px
 
 .Header
-  display: flex
-
-.LogoImg
-  flex-grow: 1.33
-  background:
-    image: url(./images/logo.jpg)
-    size: 300px
-
-.CharacterImage
-  flex-grow: 2.33
+  background-image: url(./images/logo.png)
