@@ -6,11 +6,10 @@ class App extends React.Component {
 
   render () {
     return (
-      <div className='App'>
+      <div className="App">
         <Navigation />
-        <div className='HeaderImg'>
-          <div className='Header'>
-          </div>
+        <div className="HeaderImg">
+          <div className="Header" />
         </div>
       </div>
     )
