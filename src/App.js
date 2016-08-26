@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.sass'
 import Navigation from './Navigation'
+import Logo from './Logo'
 
 class App extends React.Component {
 
@@ -8,9 +9,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Navigation />
-        <div className="HeaderImg">
-          <div className="Header" />
-        </div>
+        <Logo />
       </div>
     )
   }
