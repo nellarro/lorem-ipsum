@@ -14,7 +14,7 @@ class Navigation extends React.Component {
             <li><a className="LocatorLink" href="#">Store Locator</a></li>
           </ul>
         </nav>
-        <input className="SearchBar" type="search" placeholder="Enter a Keyword or Item #" />
+        <input className="SearchBar" type="text" placeholder="Enter a Keyword or Item #" />
       </div>
     )
   }

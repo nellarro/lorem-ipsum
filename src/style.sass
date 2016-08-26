@@ -1,4 +1,4 @@
-$font-stack: 'Source Sans Pro' , sans-serif
+$font-stack: 'Lato' , sans-serif
 $site-color: #20C4F4
 $important-color: #0461A9
 
@@ -25,27 +25,34 @@ body
 
   .SearchBar
     color: $site-color
-    font-size: 40px
-
-  li
-    display: inline
-    font-size: large
+    font-size: 15px
 
   ul
     list-style: none
-    font-family: 100% $font-stack
+    font:
+      family: $font-stack
+      weight: 700
     margin: 0px
     padding:
       left: 0px
       top: 15px
       bottom: 15px
 
+  li
+    display: inline
+
   a
     text-decoration: none
     color: white
 
+  a:hover
+    color: $important-color
+
   input
     width: 350px
+    padding:
+      top: 5px
+      bottom: 5px
 
 .Header
   background-image: url(./images/logo.png)
