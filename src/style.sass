@@ -15,6 +15,7 @@ body
   align-items: center
   background: $site-color
   color: white
+  padding-top: 1.3em
 
   .HomeLink
     padding-right: 20px
@@ -55,7 +56,28 @@ body
       bottom: 5px
 
 .HeaderImg
-  height: 34vh
+  height: 160px
+  width: 100%
+  display: flex
+  flex-wrap: wrap
   background:
     image: url('./images/sanriologo.png')
     repeat: no-repeat
+
+.AdsContainer
+  display: flex
+  justify-content: space-between
+
+.AdBox1, .AdBox2
+  flex-wrap: wrap
+  width: 50%
+
+.AdImage1
+  background-image: url('./images/ad-one.png')
+  height: 200px
+  background-repeat: no-repeat
+
+.AdImage2
+  background-image: url('./images/ad-two.png')
+  height: 200px
+  background-repeat: no-repeat
