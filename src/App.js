@@ -2,6 +2,7 @@ import React from 'react'
 import './style.sass'
 import Navigation from './Navigation'
 import Logo from './Logo'
+import Ads from './Ads'
 
 class App extends React.Component {
 
@@ -10,6 +11,7 @@ class App extends React.Component {
       <div className="App">
         <Navigation />
         <Logo />
+        <Ads />
       </div>
     )
   }
