@@ -1,6 +1,12 @@
 $font-stack: 'Lato' , sans-serif
 $site-color: #20C4F4
 $important-color: #0461A9
+$frog: #A8CE69
+$text-color: #515151
+$title1color: #ECA111
+$title2color: #E4202C
+
+
 
 body
   color: $site-color
@@ -66,18 +72,30 @@ body
 
 .AdsContainer
   display: flex
-  justify-content: space-between
+  justify-content: space-around
 
-.AdBox1, .AdBox2
-  flex-wrap: wrap
-  width: 50%
+  p
+    color: $text-color
 
-.AdImage1
-  background-image: url('./images/ad-one.png')
-  height: 200px
-  background-repeat: no-repeat
+.AdBox1
+  padding:
+    right: 1em
+    left: 2em
 
-.AdImage2
-  background-image: url('./images/ad-two.png')
-  height: 200px
-  background-repeat: no-repeat
+.AdBox2
+  padding:
+    right: 2em
+    left: 1em
+
+.FirstImage, .SecondImage
+  height: 250px
+
+.Title1
+  color: $title1color
+  font-size: 22px
+
+.Title2
+  color: $title2color
+  font-size: 22px
+  margin: 14px
+  margin-left: 0px
