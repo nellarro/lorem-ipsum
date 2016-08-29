@@ -1,5 +1,7 @@
 import React from 'react'
 import './style.sass'
+import AdOne from './images/ad-one.png'
+import AdTwo from './images/ad-two.png'
 
 class Ads extends React.Component {
 
@@ -8,7 +10,7 @@ class Ads extends React.Component {
       <div className="AdsContainer">
         <div className="AdBox1">
           <div className="AdImage1">
-            <img className="FirstImage" src="src/images/ad-one.png" alt="AdOne" />
+            <img src={AdOne} />
           </div>
           <h3 className="Title1">Super cool skate decks
           </h3>
@@ -17,7 +19,7 @@ class Ads extends React.Component {
         </div>
         <div className="AdBox2">
           <div className="AdImage2">
-            <img className="SecondImage" src="src/images/ad-two.png" alt="AdTwo" />
+            <img src={AdTwo} />
           </div>
           <h3 className="Title2">MINNA NO TĀBŌ
           </h3>
