@@ -3,6 +3,7 @@ import './style.sass'
 import Navigation from './Navigation'
 import Logo from './Logo'
 import Ads from './Ads'
+import Characters from './Characters'
 
 class App extends React.Component {
 
@@ -12,6 +13,7 @@ class App extends React.Component {
         <Navigation />
         <Logo />
         <Ads />
+        <Characters />
       </div>
     )
   }
